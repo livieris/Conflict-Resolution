@@ -1,0 +1,208 @@
+body{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	background: cornflowerblue;
+}
+h1{
+	text-align: center;
+	font-size: 3em;
+}
+#header{
+	position: fixed;
+	width: 100%;
+	height: auto;
+	top: 0;
+	z-index: 1;
+	background: royalblue;
+	left: 0;
+}
+#logo{
+	vertical-align: text-top;
+	height: 100px;
+	width: 100px;
+	top: 10px;
+}
+#body{
+	margin-top: 175px;
+}
+#homeBody{
+	margin-top: 175px;
+	padding-bottom: 500px;
+}
+#navbar {
+	text-align: center;
+	font-size: 1.2em;
+}
+#navbar a{
+	text-decoration: none;
+	background: lightskyblue;
+	color: royalblue;
+	padding: 5px;
+	margin-bottom: 10px;
+	border-radius: 3px;
+}
+#navbar a:hover{
+	background: cornflowerblue;
+}
+#navbar a:active{
+	background: darkblue;
+}
+#homePageInfo, #mission {
+	margin: auto;
+	width: 33%;
+	background: lightskyblue;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 10px;
+}
+#pic1, #pic2 {
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 10px;
+}
+#images {
+	text-align: center;
+}
+#footer {
+	position: static;
+	bottom: 0;
+	text-align: center;
+	width: 100%;
+	height: auto;
+	background: royalblue;
+	color: white;
+	font-size: .75em;
+	border-radius: 10px;
+	padding-top: 1px;
+}
+/*This divides each section of information, use <div class="section"*/
+#training, #mediation, #facilitation
+,#coaching, #consultation, #tellMe,
+#collab, #winwin, #CCM, #root,
+#listening, #environ, #change, #expect,
+#only, #clientList, #testimonials,
+#article1, #article2, #loginDiv,
+#contactus, #searchBy, #searchResults, .section {
+	margin: auto;
+	width: 90%;
+	background: lightskyblue;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 10px;
+}
+#titleHeading {
+	font-size: 2.2em;
+	text-align: center;
+	color: #A40C33;
+}
+#cherylPic{
+	float: right;
+	margin: 28px 100px 10px 10px;
+}
+/*For every text area what contains notes, change to class = "notebox"*/
+#clientTextBox, .noteBox{
+	text-align: left;
+	width: 550px;
+	height: 200px;
+	resize: none;
+	font-size: 14pt;
+	border-radius: 10px;
+	border-style:  inset;
+	background-color: cornflowerblue;
+}
+/*In profile page this indents right under the header, use class="contactInfo"*/
+#contactInfo, .contactInfo, .infoIndent{
+	padding-left: 100px;
+	font-size: 14pt;
+}
+
+.floatRightText{
+	text-align: right;
+}
+.floatCenterText{
+	text-align: center;
+}
+/*This creates the button, use class="button" and put inside of p tags*/
+#button, .button{
+	display: inline-block;
+	padding: 10px 30px;
+	border: 1px solid #006699;
+	border-radius: 8px;
+	background-color: #0097DF;
+	color: white;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	box-shadow: 0 3px 4px 1px rgba(0,0,0, .2) inset, 2px 2px 4px 1px rgba(0,0,0,.5);
+	background-image: -webkit-linear-gradient(top, #006B9F, #0FB1FF);
+	background-image: linear-gradient(to bottom, #006B9F, #0FB1FF);
+	text-shadow: 2px 2px 3px #444444;
+}
+#txtAreaResults{
+	margin: 10px;
+	text-align: left;
+	font-size: 14pt;
+	border-radius: 10px;
+	border-style:  inset;
+	background-color: cornflowerblue;
+}
+.changePassButton{
+	display: inline-block;
+	padding: 10px 30px;
+	border: 1px solid #006699;
+	border-radius: 8px;
+	background-color: #0097DF;
+	color: white;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	box-shadow: 0 3px 4px 1px rgba(0,0,0, .2) inset, 2px 2px 4px 1px rgba(0,0,0,.5);
+	background-image: -webkit-linear-gradient(top, #006B9F, #0FB1FF);
+	background-image: linear-gradient(to bottom, #006B9F, #0FB1FF);
+	text-shadow: 2px 2px 3px #444444;
+	margin-left: 75%;
+}
+label{
+display:inline-block;
+width:200px;
+margin-right:30px;
+text-align:left;
+}
+
+input .button{
+	display: inline-block;
+	padding: 10px 30px;
+	border: 1px solid #006699;
+	border-radius: 8px;
+	background-color: #0097DF;
+	color: white;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	box-shadow: 0 3px 4px 1px rgba(0,0,0, .2) inset, 2px 2px 4px 1px rgba(0,0,0,.5);
+	background-image: -webkit-linear-gradient(top, #006B9F, #0FB1FF);
+	background-image: linear-gradient(to bottom, #006B9F, #0FB1FF);
+	text-shadow: 2px 2px 3px #444444;
+}
+
+fieldset{
+border:none;
+width:500px;
+}
+
+p label {
+    display: inline-block;
+    width: 175px;
+	font-weight: bold;
+}
+p input {
+    width: 300px;
+}
+
+#error, .error{
+	color: red;
+}

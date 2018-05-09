@@ -1,0 +1,104 @@
+body{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	background: cornflowerblue;
+}
+h1{
+	text-align: center;
+	font-size: 3em;
+}
+#header{
+	position: fixed;
+	width: 100%;
+	height: auto;
+	top: 0;
+	z-index: 1;
+	background: royalblue;
+	left: 0;
+}
+#logo{
+	vertical-align: text-top;
+	height: 100px;
+	width: 100px;
+	top: 10px;
+}
+#body{
+	margin-top: 175px;
+}
+#homeBody{
+	margin-top: 175px;
+	padding-bottom: 500px;
+}
+#navbar {
+	text-align: center;
+	font-size: 1.2em;
+}
+#navbar a{
+	text-decoration: none;
+	background: lightskyblue;
+	color: royalblue;
+	padding: 5px;
+	margin-bottom: 10px;
+	border-radius: 3px;
+}
+#navbar a:hover{
+	background: cornflowerblue;
+}
+#navbar a:active{
+	background: darkblue;
+}
+#homePageInfo, #mission {
+	margin: auto;
+	width: 33%;
+	background: lightskyblue;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 10px;
+}
+#pic1, #pic2 {
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 10px;
+}
+#images {
+	text-align: center;
+}
+#footer {
+	position: static;
+	bottom: 0;
+	text-align: center;
+	width: 100%;
+	height: auto;
+	background: royalblue;
+	color: white;
+	font-size: .75em;
+	border-radius: 10px;
+	padding-top: 1px;
+}
+#training, #mediation, #facilitation
+,#coaching, #consultation, #tellMe,
+#collab, #winwin, #CCM, #root,
+#listening, #environ, #change, #expect,
+#only, #clientList, #testimonials,
+#article1, #article2, #loginDiv,
+#contactus {
+	margin: auto;
+	width: 90%;
+	background: lightskyblue;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 10px;
+}
+#titleHeading {
+	font-size: 2.2em;
+	text-align: center;
+	color: #A40C33;
+}
+#cherylPic{
+	float: right;
+	margin: 28px 100px 10px 10px;
+}
